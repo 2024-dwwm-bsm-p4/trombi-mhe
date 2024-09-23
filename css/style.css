@@ -1,69 +1,58 @@
-*
-
+* {
+	box-sizing: border-box;
+}
+body{
+	
+}
 
 .card-container {
-	background-color: #000000;
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(92, 92, 92, 0.75);
-	color: #B3B8CD;
+	color: #2d3d7c;
 	padding-top: 30px;
 	position: relative;
 	width: 350px;
 	max-width: 100%;
 	text-align: center;
 }
-.img{
+.picture{
     border: 1px solid #ffffff;
 	border-radius: 50%;
 	padding: 7px;
+}
 
+hr{
+	max-width: 80%;
 }
-.card-container h6 {
-    font-size: medium;
-}
-.skills {
+
+.stack {
 	text-align: center;
 	padding: 5px;
 }
-.skills h6{
-    font-size: 22px;
-    text-align: center;
+.stack h3{
+	font-size: 22px;
 }
 
-.skills ul {
+.stack ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-.skills ul li {
-	border: 1px solid #034672;
+.stack ul li {
+	border: 1px solid ;
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 15px;
 	margin: 0 7px 7px 0;
 	padding: 7px;
 }
-.hobbies {
+.contact {
 	text-align: center;
 	padding: 5px;
-	margin-top: 30px;
 }
-.hobbies ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.contact h3{
+	font-size: 22px;
 }
 
-.hobbies ul li {
-	border: 1px solid #034672;
-	border-radius: 2px;
-	display: inline-block;
-	font-size: 15px;
-	margin: 0 7px 7px 0;
-	padding: 7px;
-}
-.hobbies h6{
-    font-size: 22px;
-    text-align: center;
-}
+
