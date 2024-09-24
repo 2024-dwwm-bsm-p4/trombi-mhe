@@ -214,9 +214,9 @@ html, body {
 .boulogne-marker-8 .custom-marker {
     background-image: url('../img/Marine.jpeg');
 }
-.boulogne-marker-9 .custom-marker {
-    background-image: url('../img/nico.jpeg');
-}
 .boulogne-marker-10 .custom-marker {
     background-image: url('../img/philippe.png');
+}
+.samer-marker .custom-marker {
+    background-image: url('../img/nico.jpeg'); /* Remplace par l'image que tu veux pour Samer */
 }

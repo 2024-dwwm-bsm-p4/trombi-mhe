@@ -35,16 +35,17 @@ async function getCommuneData(nomCommune, codePostal = null) {
                     addImageMarker(50.9500, 1.8600, 'calais-marker-2', '<h2>Cercle 2 - Calais</h2><p>Informations sur le deuxième cercle à Calais.</p>');
                     addImageMarker(50.9500, 1.8700, 'calais-marker-3', '<h2>Cercle 3 - Calais</h2><p>Informations sur le troisième cercle à Calais.</p>');
                 } else if (nomCommune === 'Boulogne-sur-Mer') {
-                    addImageMarker(50.7200, 1.6000, 'boulogne-marker-1', '<h2>Cercle 1 - Boulogne-sur-Mer</h2><p>Informations sur le premier cercle à Boulogne-sur-Mer.</p>');
+                    addImageMarker(50.7300, 1.6100, 'boulogne-marker-1', '<h2>Cercle 1 - Boulogne-sur-Mer</h2><p>Informations sur le premier cercle à Boulogne-sur-Mer.</p>');
                     addImageMarker(50.7200, 1.6100, 'boulogne-marker-2', '<h2>Cercle 2 - Boulogne-sur-Mer</h2><p>Informations sur le deuxième cercle à Boulogne-sur-Mer.</p>');
                     addImageMarker(50.7200, 1.6200, 'boulogne-marker-3', '<h2>Cercle 3 - Boulogne-sur-Mer</h2><p>Informations sur le troisième cercle à Boulogne-sur-Mer.</p>');
-                    addImageMarker(50.7200, 1.6300, 'boulogne-marker-4', '<h2>Cercle 4 - Boulogne-sur-Mer</h2><p>Informations sur le quatrième cercle à Boulogne-sur-Mer.</p>');
-                    addImageMarker(50.7200, 1.6400, 'boulogne-marker-5', '<h2>Cercle 5 - Boulogne-sur-Mer</h2><p>Informations sur le cinquième cercle à Boulogne-sur-Mer.</p>');
-                    addImageMarker(50.7200, 1.6500, 'boulogne-marker-6', '<h2>Cercle 6 - Boulogne-sur-Mer</h2><p>Informations sur le sixième cercle à Boulogne-sur-Mer.</p>');
-                    addImageMarker(50.7200, 1.6600, 'boulogne-marker-7', '<h2>Cercle 7 - Boulogne-sur-Mer</h2><p>Informations sur le septième cercle à Boulogne-sur-Mer.</p>');
-                    addImageMarker(50.7200, 1.6700, 'boulogne-marker-8', '<h2>Cercle 8 - Boulogne-sur-Mer</h2><p>Informations sur le huitième cercle à Boulogne-sur-Mer.</p>');
-                    addImageMarker(50.7200, 1.6800, 'boulogne-marker-9', '<h2>Cercle 8 - Boulogne-sur-Mer</h2><p>Informations sur le huitième cercle à Boulogne-sur-Mer.</p>');
-                    addImageMarker(50.7200, 1.6900, 'boulogne-marker-10', '<h2>Cercle 8 - Boulogne-sur-Mer</h2><p>Informations sur le huitième cercle à Boulogne-sur-Mer.</p>');
+                    addImageMarker(50.7400, 1.6100, 'boulogne-marker-4', '<h2>Cercle 4 - Boulogne-sur-Mer</h2><p>Informations sur le quatrième cercle à Boulogne-sur-Mer.</p>');
+                    addImageMarker(50.7300, 1.6300, 'boulogne-marker-5', '<h2>Cercle 5 - Boulogne-sur-Mer</h2><p>Informations sur le cinquième cercle à Boulogne-sur-Mer.</p>');
+                    addImageMarker(50.7300, 1.6200, 'boulogne-marker-6', '<h2>Cercle 6 - Boulogne-sur-Mer</h2><p>Informations sur le sixième cercle à Boulogne-sur-Mer.</p>');
+                    addImageMarker(50.7200, 1.6200, 'boulogne-marker-7', '<h2>Cercle 7 - Boulogne-sur-Mer</h2><p>Informations sur le septième cercle à Boulogne-sur-Mer.</p>');
+                    addImageMarker(50.7250, 1.6100, 'boulogne-marker-8', '<h2>Cercle 8 - Boulogne-sur-Mer</h2><p>Informations sur le huitième cercle à Boulogne-sur-Mer.</p>');
+                    addImageMarker(50.7300, 1.6000, 'boulogne-marker-10', '<h2>Cercle 10 - Boulogne-sur-Mer</h2><p>Informations sur le dixième cercle à Boulogne-sur-Mer.</p>');
+                } else if (nomCommune === 'Samer') {
+                    addImageMarker(50.6414, 1.7534, 'samer-marker', '<h2>Mairie de Samer</h2><p>Description de la Mairie de Samer.</p>');
                 }
             });
         }
@@ -75,3 +76,4 @@ getCommuneData('Calais');
 getCommuneData('Boulogne-sur-Mer');
 getCommuneData('Saint-Omer', '62500');
 getCommuneData('Arques', '62510');
+getCommuneData('Samer', '62830');
