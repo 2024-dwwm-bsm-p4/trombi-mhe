@@ -16,9 +16,9 @@ body {
     flex-direction: column;
 }
 
-/* Ajout du style pour les images */
+
 #pointe {
-    margin-bottom: 20px; /* Espacement de 20px entre l'image "espace-reserve" et la carte */
+    margin-bottom: 20px; 
 }
 
 #pointe img, .map-container img {
@@ -26,7 +26,7 @@ body {
     border-radius: 10px;
 }
 
-/* Animation de la voiture */
+
 .road {
     width: 100vw;
     height: 100px;
@@ -63,7 +63,7 @@ body {
     }
 }
 
-/* Style pour l'animation de fermeture en noir */
+
 .black-screen {
     position: fixed;
     top: 0;
@@ -72,7 +72,7 @@ body {
     height: 100vh;
     background-color: black;
     z-index: 100;
-    display: none; /* Caché initialement */
+    display: none; 
 }
 
 .black-screen.active {
@@ -80,7 +80,7 @@ body {
     animation: closeScreen 1s forwards;
 }
 
-/* Animation de fermeture (écran devient noir) */
+
 @keyframes closeScreen {
     0% {
         transform: scale(0);
@@ -90,7 +90,7 @@ body {
     }
 }
 
-/* Animation de réouverture */
+
 @keyframes openScreen {
     0% {
         transform: scale(1);
@@ -100,21 +100,21 @@ body {
     }
 }
 
-/* Conteneur de la carte */
+
 .map-container {
     position: relative;
     width: auto;
     height: auto;
 }
 
-/* Image de la carte */
+
 .map-container .map {
     max-width: 90%;
     border: 5px solid #fff;
     border-radius: 10px;
 }
 
-/* Pointeur générique */
+
 .map-container .pointer {
     position: absolute;
     top: 33%; 
@@ -145,7 +145,7 @@ html, body {
     width: 100vw;  
 }
 
-/* Style général pour les marqueurs avec des images rondes */
+
 .custom-div-icon {
     background-color: transparent;
     width: 50px;
