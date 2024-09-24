@@ -43,7 +43,8 @@ async function getCommuneData(nomCommune, codePostal = null) {
                     addImageMarker(50.7200, 1.6500, 'boulogne-marker-6', '<h2>Cercle 6 - Boulogne-sur-Mer</h2><p>Informations sur le sixième cercle à Boulogne-sur-Mer.</p>');
                     addImageMarker(50.7200, 1.6600, 'boulogne-marker-7', '<h2>Cercle 7 - Boulogne-sur-Mer</h2><p>Informations sur le septième cercle à Boulogne-sur-Mer.</p>');
                     addImageMarker(50.7200, 1.6700, 'boulogne-marker-8', '<h2>Cercle 8 - Boulogne-sur-Mer</h2><p>Informations sur le huitième cercle à Boulogne-sur-Mer.</p>');
-                    addImageMarker(50.7200, 1.6700, 'boulogne-marker-9', '<h2>Cercle 8 - Boulogne-sur-Mer</h2><p>Informations sur le huitième cercle à Boulogne-sur-Mer.</p>');
+                    addImageMarker(50.7200, 1.6800, 'boulogne-marker-9', '<h2>Cercle 8 - Boulogne-sur-Mer</h2><p>Informations sur le huitième cercle à Boulogne-sur-Mer.</p>');
+                    addImageMarker(50.7200, 1.6900, 'boulogne-marker-10', '<h2>Cercle 8 - Boulogne-sur-Mer</h2><p>Informations sur le huitième cercle à Boulogne-sur-Mer.</p>');
                 }
             });
         }
