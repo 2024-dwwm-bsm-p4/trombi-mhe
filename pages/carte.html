@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choisis ton personnage</title>
+    <title>Carte Interactive</title>
+    <!-- Inclure les fichiers CSS et JS de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="map-container">
-        <img src="../img/card.jpg" alt="Carte du Nord de la France">
-    </div>
+    <!-- Conteneur pour la carte -->
+    <div id="map"></div>
+
+    <script src="../js/script.js"></script> <!-- Ajouter le fichier JS pour la carte -->
+    <script src="../js/carte.js"></script>
 </body>
 </html>
